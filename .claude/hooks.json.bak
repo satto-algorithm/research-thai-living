@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $PROJECT_DIR/.claude/scripts/debug-hook.sh && bash $PROJECT_DIR/.claude/scripts/notify-discord.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
